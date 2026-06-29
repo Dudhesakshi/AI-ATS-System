@@ -1,28 +1,17 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+# frontend
+ai-ats-frontend/node_modules
+ai-ats-frontend/dist
+ai-ats-frontend/.env
 
-node_modules
-dist
-dist-ssr
-*.local
+# backend
+ai-ats-backend/target
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+# IDE files
+.vscode
 .idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+.project
+.classpath
+.settings
 
-node_modules
-.env
-dist
+# OS
+.DS_Store
